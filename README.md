@@ -3,7 +3,7 @@
 #### 介绍
 基于 `Vite` 构建JS库
 
-#### 说明
+#### 使用说明
 1. 修改 `vite.config.js` 中的 `LIBRARY_NAME` 库名称
 2. 编辑 `main.js`，并按需要修改 `index.html` 以便于调试时预览效果
 3. 将 `main.js` 编译到 `dist` 目录下
