@@ -9,7 +9,11 @@
 3. 将 `main.js` 编译到 `dist` 目录下
 
 #### 用作模板
-`git clone https://gitee.com/wavef/jslib.git YOUR_LIBRARY_NAME`
+1. `git clone https://gitee.com/wavef/jslib.git YOUR_LIBRARY_NAME`
+2. `git remote remove origin`
+3. `git remote add origin https://YOUR_REPO.git`
+4. `git push -u origin "master"`
+5. Use VSCode Git Source Control
 
 #### 安装依赖
 `pnpm install`
