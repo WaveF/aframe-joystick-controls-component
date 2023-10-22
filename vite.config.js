@@ -4,6 +4,7 @@ const { defineConfig } = require('vite')
 const MODULE_NAME = 'jslib'
 module.exports = defineConfig({
   build: {
+    sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, 'lib/main.js'),
       name: MODULE_NAME,
