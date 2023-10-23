@@ -7,9 +7,9 @@ module.exports = defineConfig({
     sourcemap: true,
     lib: {
       entry: path.resolve(__dirname, 'lib/main.js'),
+      formats: ['es', 'cjs', 'umd', 'iife'],
       name: MODULE_NAME,
       fileName: MODULE_NAME,
-      formats: ['es', 'cjs', 'umd', 'iife'],
       // fileName: (format) => `${MODULE_NAME}.${format}.js`
     }
   }

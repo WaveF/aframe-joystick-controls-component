@@ -1,0 +1,1 @@
+{"version":3,"file":"jslib.iife.js","sources":["../lib/main.js"],"sourcesContent":["const { dir, log, clear } = console\nlog('jslib!')"],"names":["dir","log","clear"],"mappings":"yBAAA,KAAM,CAAE,IAAAA,EAAK,IAAAC,EAAK,MAAAC,CAAK,EAAK,QAC5BD,EAAI,QAAQ"}

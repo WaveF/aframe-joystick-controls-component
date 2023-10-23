@@ -1,0 +1,1 @@
+{"version":3,"file":"jslib.umd.js","sources":["../lib/main.js"],"sourcesContent":["const { dir, log, clear } = console\nlog('jslib!')"],"names":["dir","log","clear"],"mappings":"2FAAA,KAAM,CAAE,IAAAA,EAAK,IAAAC,EAAK,MAAAC,CAAK,EAAK,QAC5BD,EAAI,QAAQ"}
