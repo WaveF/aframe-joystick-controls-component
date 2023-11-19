@@ -1,1 +1,0 @@
-{"version":3,"file":"jslib.mjs","sources":["../lib/main.js"],"sourcesContent":["const { dir, log, clear } = console\nlog('jslib!')"],"names":["dir","log","clear"],"mappings":"AAAA,MAAM,EAAE,KAAAA,GAAK,KAAAC,GAAK,OAAAC,EAAK,IAAK;AAC5BD,EAAI,QAAQ;"}

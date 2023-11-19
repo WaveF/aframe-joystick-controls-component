@@ -1,25 +1,38 @@
-# jslib
+# aframe-joystick-controls-component
 
-#### 介绍
-基于 `Vite` 构建JS库
+[![License](http://img.shields.io/npm/l/aframe-orbit-controls-component.svg?style=flat-square)](https://npmjs.org/package/aframe-orbit-controls-component)
 
-#### 使用说明
-1. 修改 `vite.config.js` 中的 `LIBRARY_NAME` 库名称
-2. 编辑 `main.js`，并按需要修改 `index.html` 以便于调试时预览效果
-3. 将 `main.js` 编译到 `dist` 目录下
+### Overview
+The aframe-joystick-controls-component is an A-Frame component that facilitates joystick-based control for effortless manipulation of model movement. This component integrates [nippleJS](https://yoannmoi.net/nipplejs/#demo) to create a dynamic joystick interface, providing an intuitive means to navigate models within an A-Frame scene.
 
-#### 用作模板
-1. `git clone https://gitee.com/wavef/jslib.git YOUR_LIBRARY_NAME`
-2. `git remote remove origin`
-3. `git remote add origin https://YOUR_REPO.git`
-4. `git push -u origin "master"`
-5. Use VSCode Git Source Control
+### API
 
-#### 安装依赖
-`pnpm install`
+| Property  | Description                  | Default Value  |
+| --------  | -----------                  | -------------  |
+| moveSpeed | Move speed of control target | 1              |
+| turnSpeed | Turn speed of control target | 1              |
+| margin    | Joystick Margin              | 50 50          |
+| color     | Joystick Color               | #fff           |
 
-#### 开发调试
-`pnpm dev`
 
-#### 编译打包
-`pnpm build`
+### Installation
+
+#### Browser
+
+Install and use by directly including the [browser files](dist):
+
+```html
+<head>
+  <title>My A-Frame Scene</title>
+  <script src="./aframe.min.js"></script>
+  <script src="./aframe-joystick-controls-component.js"></script>
+</head>
+
+<body>
+  <a-scene>
+    <a-box position="0 0.5 -3" color="#08f" joystick-controls>
+      <a-box scale="0.5 0.5 1.2" color="#0cf" position="0 0 .5"></a-box>
+    </a-box>
+  </a-scene>
+</body>
+```

@@ -1,8 +1,8 @@
 {
-  "name": "jslibx",
+  "name": "aframe-joystick-controls-component",
   "version": "1.0.0",
   "description": "",
-  "main":"lib/main.js",
+  "main": "lib/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,5 +15,8 @@
   "license": "ISC",
   "devDependencies": {
     "vite": "^4.4.11"
+  },
+  "dependencies": {
+    "nipplejs": "^0.10.1"
   }
 }
