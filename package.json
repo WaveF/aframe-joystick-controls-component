@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "git:reset": "git remote remove origin",
-    "git:push": "git push origin master && git push github master:main"
+    "git:push": "git push origin master && git push github master"
   },
   "keywords": [],
   "author": "WaveF",
