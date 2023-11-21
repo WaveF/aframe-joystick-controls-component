@@ -13,6 +13,7 @@ The aframe-joystick-controls-component is an A-Frame component that facilitates 
 | turnSpeed | Turn speed of control target | 1              |
 | margin    | Joystick Margin              | 50 50          |
 | color     | Joystick Color               | #fff           |
+| damping   | Damping Effect               | 0.001          |
 
 
 ### Installation
